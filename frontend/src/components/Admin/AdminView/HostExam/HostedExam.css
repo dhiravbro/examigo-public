@@ -1,0 +1,46 @@
+.hosted-exam-view {
+	width: 60%;
+	margin: 0 auto;
+}
+.hosted-exam {
+	margin: 0 0 10px 0;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid black;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 5fr 1fr 1fr;
+}
+.analysis-btn {
+	border-radius: 2px;
+	padding: 4px;
+	color: white;
+	background-color: #ff0000fa;
+}
+.hosted-exam-icon i {
+	color: rgb(255, 145, 2);
+}
+.hosted-examname {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+}
+.hosted-description {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+}
+.hosted-exam-course {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+}
+.hosted-exam-class {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+}
+.hosted-exam-icon a {
+	text-decoration: none;
+	color: black;
+}

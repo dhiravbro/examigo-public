@@ -1,0 +1,71 @@
+.host-exam-div {
+	background-color: #29c7ee;
+	margin: 0 0 10px 0;
+	padding: 20px 30px;
+	border-radius: 10px;
+	color: white;
+}
+.host-exam-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	font-weight: 400;
+	text-align: left;
+}
+.host-exam-view {
+	width: 60%;
+	margin: 0 auto;
+}
+.host {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 5fr 1fr 1fr 1fr;
+}
+.host-examname {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+}
+.host-course {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8rem;
+	font-weight: 1rem;
+}
+.host-description {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8rem;
+	font-weight: 500;
+}
+.host-class {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8rem;
+	font-weight: 1rem;
+}
+
+.edit-hostexam-btn {
+	border-radius: 2px;
+	padding: 4px;
+	color: white;
+	background-color: #ae00fffa;
+}
+
+.host-exam-icon {
+	display: inline;
+}
+
+.host-exam-icon p {
+	font-size: 0.8rem;
+}
+
+.host-exam-icon a i,
+.host-exam-icon i {
+	color: white;
+}
+.host-exam-icon a i:hover,
+.host-exam-icon i:hover {
+	color: #ccc;
+}
+
+.date-time-slider {
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr;
+}

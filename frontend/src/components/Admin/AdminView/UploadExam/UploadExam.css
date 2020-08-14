@@ -1,0 +1,69 @@
+.upload-exam-view {
+	width: 60%;
+	margin: 0 auto;
+}
+.upload-area {
+	height: 100%;
+	margin: 50px auto 0;
+}
+
+.upload-box,
+.upload-select-box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 50%;
+	margin: 0 0 20px 0;
+}
+.upload-select-box {
+	display: flex;
+}
+
+.form-input,
+.upload-select {
+	padding: 8px 15px;
+	background-color: #eaeaea;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	width: 90%;
+	color: #333;
+	font-size: 0.9rem;
+	padding: 10px 20px;
+	-webkit-appearance: button;
+}
+.upload-select {
+	width: 50%;
+	padding: 10px 20px;
+}
+.upload-box label,
+.upload-select-box label {
+	padding: 0 15px;
+	font-size: 0.8rem;
+	color: #8e8e8e;
+}
+.upload-title {
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 2rem;
+	margin: 10px 0 0 30px;
+}
+.next-btn,
+.upload-btn {
+	width: 33%;
+	margin: auto;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: white;
+	background-color: #3855d8;
+	cursor: pointer;
+}
+.next-btn:hover {
+	background-color: #2743c0;
+}
+.upload-btn {
+	background-color: #44d631;
+}
+.upload-btn:hover {
+	background-color: #36b625;
+}

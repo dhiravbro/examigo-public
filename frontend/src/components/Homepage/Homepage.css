@@ -1,0 +1,117 @@
+/* @font-face {
+	font-family: ViceCity;
+	src: url(fonts/ViceCitySans.otf) format("opentype") !important;
+} */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input {
+	outline: none;
+}
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+body {
+	background-color: #f0f9ed;
+	/* font-family: ViceCity !important; */
+}
+
+.background {
+	background-color: #4ba3f3;
+}
+
+.title {
+	margin: 100px 50px;
+}
+
+.nav-link {
+	color: #f0f9ed;
+}
+.nav-link:hover {
+	color: #4467af;
+}
+#examigo {
+	font-size: 2rem;
+	font-weight: bolder;
+	opacity: 1.0;
+}
+.navbar-brand:hover {
+	color: #4467af;
+}
+.navigation {
+	margin-right: 3%;
+}
+.dropdown-menu {
+	margin: 2% 4%;
+	border: 0;
+	background-color: #fafafa;
+}
+.dropdown-item {
+	color: #6294fa;
+}
+.dropdown-item:hover {
+	background-color: #f0f9ed;
+	color: #4467af;
+}
+.scrolled {
+	background: #5dacf4;
+	transition: background 500ms;
+}
+
+.computer {
+	position: relative;
+	z-index: 1;
+}
+/* Features Section */
+#Features {
+	text-align: center;
+}
+
+.feature-container {
+	position: relative;
+	bottom: 80px;
+	z-index: 0;
+}
+/* Package Section */
+#Packages {
+	background-color: #3079ed;
+}
+.package-line {
+	border-color: #e5e5e5;
+}
+
+/* About Us Section */
+
+.carousel-container {
+	border-width: 10px;
+}
+
+/* Footer Section */
+
+#footer {
+	background-color: #323232;
+	text-decoration: none;
+}
+.footer-link:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.feature-card {
+	width: 20%;
+}

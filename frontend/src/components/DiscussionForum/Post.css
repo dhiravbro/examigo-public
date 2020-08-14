@@ -1,0 +1,166 @@
+.posts-div {
+	width: 70%;
+	padding: 0 40px;
+}
+
+.forum-title {
+	text-align: left;
+	font-size: 2rem;
+	font-style: bold;
+}
+.post {
+	width: 55%;
+	margin: 10px auto;
+	border: 1px solid #dbdbdb;
+	border-radius: 10px;
+	display: flex;
+	flex-flow: column;
+	background-color: #fff;
+}
+/* .post-top {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+} */
+
+.query-image {
+	width: 100%;
+	max-height: 700px;
+}
+.post-content {
+	padding: 5px 20px 0 20px;
+}
+.post-details {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+}
+.post-user-details {
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+}
+.post-user {
+	font-size: 1.05rem;
+	font-weight: bold;
+	text-align: left;
+}
+.post-timing {
+	text-align: left;
+	font-size: 0.8rem;
+	color: #cbbeb5;
+	font-weight: 500;
+}
+.post-subject {
+	text-align: left;
+	font-size: 0.95rem;
+	padding: 7px 0 8px 0;
+	font-weight: 600;
+	margin: 0;
+}
+.post-subject span, .post-tag-div p {
+	font-size: 0.85rem;
+	font-weight: 400;
+	color: #a3a3a3;
+}
+.post-tag-div{
+	width : 100%;
+	padding : 0 0 7px 0;
+	text-align: left;
+}
+span.post-tag{
+	padding : 3px 5px;
+	background-color: #a3a3a3;
+	color :#fff;
+	border-radius : 3px;
+
+}
+.post-query {
+	border: 1px solid #e3e3e3;
+	padding: 10px 12% 10px 12%;
+	text-align: left;
+	font-size: 1.075rem;
+	line-height: 1.5;
+	border-radius: 5px;
+	background-color: #efefef;
+	white-space: pre-wrap;
+}
+/* .post-query div {
+	padding: 10px 10px 10px 10px;
+	background-color: #efefef;
+} */
+.post-button-div {
+	margin: 10px 0 0 0;
+	padding: 5px 8px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 4px;
+	border: 1px solid #e5e5e5;
+}
+.post-button {
+	padding: 3px 8px;
+	cursor: pointer;
+	background-color: white;
+	border-radius: 3px;
+	font-size: 0.9rem;
+}
+
+.post-button:hover {
+	background-color: #e5e5e5;
+}
+.comment-section {
+	background-color: #f4f4f3;
+	width: 100%;
+	padding: 0 20px;
+}
+.comment-input {
+	border: 1px solid #e0e0e0;
+	border-radius: 25px;
+	margin: 10px auto 15px auto;
+	width: 100%;
+	padding: 5px 12px;
+	font-size: 0.8rem;
+}
+.comment-div {
+	display: flex;
+	align-items: center;
+	margin: 0 0 10px 0;
+}
+.comment-div .comment-details {
+	/* display: flex;
+	justify-content: space-between;
+	align-items: center; */
+	background-color: #dbdbdb;
+	border-radius: 15px;
+	padding: 5px 13px;
+	text-align: left;
+}
+/* .comment-div .comment-details .comment-info {
+	
+} */
+.comment-div .comment-details .comment-username {
+	font-weight: 600;
+	padding: 0 7px 8px 0;
+	margin: 0 3px 0 0;
+	font-size: 0.85rem;
+}
+.comment-div .comment-details .comment-date {
+	font-weight: 500;
+	color: #a3a3a3;
+	font-size: 0.65rem;
+}
+.comment-div .comment {
+	margin: 2px 0 0 0;
+	font-size: 0.9rem;
+}
+.post-avatar {
+	width: 47px;
+	margin: 0;
+	height: 47px;
+}
+.comment-avatar {
+	width: 40px;
+	margin: 0 10px 0 0;
+	height: 40px;
+}

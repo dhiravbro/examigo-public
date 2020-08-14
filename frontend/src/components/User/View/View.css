@@ -1,0 +1,7 @@
+.view-area {
+	display: inline-block;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #ffffff;
+}

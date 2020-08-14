@@ -1,0 +1,10 @@
+.QuestionTab {
+	display: inline-block;
+	width: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: blue;
+	margin: 0 5px 0;
+	color: white;
+	cursor: pointer;
+}

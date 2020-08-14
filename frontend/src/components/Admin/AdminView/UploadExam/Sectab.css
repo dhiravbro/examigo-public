@@ -1,0 +1,45 @@
+.sec-tab {
+	margin: 0 10px 0 0;
+	padding: 5px;
+	background-color: #3855d8;
+	border-radius: 5px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+.sec-info {
+	padding: 5px 12px;
+}
+.sec-name {
+	font-size: 1.2rem;
+	/* margin: 0 0 10px 0; */
+	/* padding: 0 15px 0 0; */
+	color: white;
+	margin: 0;
+}
+.subject {
+	font-size: 0.8rem;
+	margin: 0;
+	font-weight: 300;
+}
+.question-type,
+.marking-scheme {
+	font-size: 0.7rem;
+	padding: 5px 7px;
+}
+
+.add-ques-btn {
+	margin: 0 15px 0 0;
+	border-radius: 15px;
+	padding: 5px 8px;
+	color: white;
+	font-size: 0.7rem;
+	background-color: #314cc2;
+	cursor: pointer;
+}
+
+.delete-sec {
+	color: #e0e0e0;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+}

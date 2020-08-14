@@ -1,0 +1,59 @@
+.StudentView {
+	font-size: 1.1rem;
+	width: 80%;
+	margin: 0 auto;
+}
+.student-title {
+	font-size: 2.5rem;
+	text-align: left;
+	font-weight: 300;
+	margin: 0 0 0 25px;
+}
+.student-info {
+	padding: 10px 0 10px 0;
+	margin: 10px; /* background-color: rgb(189, 188, 188); */
+	border-bottom: 1px solid #e5e5e5;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr 2fr;
+}
+
+.unenroll-btn {
+	border-radius: 2px;
+	padding: 4px;
+	color: white;
+	background-color: #e41a1a;
+}
+.filter-area {
+	border-bottom: 1px solid grey;
+	margin: 20px 0 30px 0;
+	padding: 0 0 15px 0;
+}
+.course-option {
+	padding: 6px 10px;
+	margin: 0 0 0 40px;
+}
+.student-name {
+	font-size: 1.5rem;
+	font-style: bold;
+	font-weight: 6rem;
+}
+.student-class {
+	font-size: 1rem;
+	font-style: bold;
+}
+.student-course {
+	font-size: 1rem;
+	font-style: bold;
+}
+.tab {
+	padding: 8px 15px;
+	background-color: white;
+	outline: none;
+}
+.active-student-tab {
+	padding: 8px 15px;
+	border-bottom: 2px solid #3333ff;
+	color: #3333ff;
+	background: none;
+	outline: none;
+}

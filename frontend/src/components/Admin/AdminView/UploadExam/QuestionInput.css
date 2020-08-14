@@ -1,0 +1,33 @@
+.input-area {
+	max-width: 300px;
+	height: 80%;
+	background-color: #ccc;
+}
+.upload-button {
+	font-size: 0.8rem;
+	padding: 7px 12px;
+	margin: 10px;
+	border: none;
+	border-radius: 3px;
+	background-color: #3c58f8;
+}
+
+.upload-button:hover {
+	background-color: #3c58f8;
+}
+/* 
+input[type="file"] {
+	display: none;
+} */
+label.custom-file-input {
+	background-color: #3c58f8;
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 20px;
+	border-radius: 7px;
+	cursor: pointer;
+	color: white;
+}
+.custom-file-input {
+	background-color: #bf00e5;
+}

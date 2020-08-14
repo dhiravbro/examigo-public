@@ -1,0 +1,18 @@
+.feedback-view {
+	margin: 50px;
+}
+.feedback-title {
+	font-size: 2rem;
+	text-align: left;
+}
+.feedback-btn {
+	color: #ffffff;
+	background-color: #1b4beb;
+	border-radius: 2px;
+	padding: 2px;
+}
+.feedback-input {
+	border: 1px solid grey;
+	height: 150px;
+	width: 70%;
+}

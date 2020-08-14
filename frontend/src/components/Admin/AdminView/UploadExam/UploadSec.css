@@ -1,0 +1,96 @@
+.Section-tab {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 0 20px 0;
+}
+
+.upload-section-view {
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+.upload-section-title {
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 2rem;
+	margin: 10px 0 30px 0;
+}
+.upload-box,
+.upload-select-box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 50%;
+	margin: 0 0 20px 0;
+}
+.upload-select-box {
+	display: flex;
+}
+#sec-name {
+	width: 100%;
+}
+#subject {
+	display: inline-flex;
+	width: 100%;
+}
+#pos-marks,
+#neg-marks,
+#ques-type,
+#num-ques {
+	margin: 30px 0 0 0;
+	width: 40%;
+	display: inline-flex;
+}
+#ques-type {
+	width: 60%;
+}
+#subject,
+#neg-marks,
+#ques-type {
+	margin: 0 0 0 auto;
+}
+.form-input,
+.upload-select {
+	padding: 8px 15px;
+	background-color: #eaeaea;
+	border-radius: 20px;
+	/* margin: 0 0 0 auto; */
+	border: 1px solid #ccc;
+	width: 90%;
+	color: #333;
+	font-size: 0.9rem;
+	-webkit-appearance: button;
+}
+.upload-select {
+	width: 50%;
+	padding: 10px 20px;
+}
+.upload-box label,
+.upload-select-box label {
+	padding: 0 15px;
+	font-size: 0.8rem;
+	color: #8e8e8e;
+}
+.upload-title {
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 2rem;
+	margin: 10px 0 0 30px;
+}
+.addsec-btn {
+	display: block;
+	width: 90%;
+	margin: 50px 0 20px 0;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: white;
+	background-color: #44d631;
+	cursor: pointer;
+}
+.addsec-btn:hover {
+	background-color: #36b625;
+}
+.Section-tab {
+	display: flex;
+}

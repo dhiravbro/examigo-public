@@ -1,0 +1,30 @@
+.exam-buttons-div {
+	border: 1px solid #ccc;
+	width: 80%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.review-button,
+.clear-button,
+.save-button {
+	padding: 10px 20px;
+	margin: 0 10px 0 0;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+
+.review-button:hover,
+.clear-button:hover,
+.save-button {
+	background-color: #3333ff;
+	color: white;
+}
+.save-button:hover {
+	outline: 1px solid black;
+}

@@ -1,0 +1,70 @@
+/* .AdminSidebar { */
+/* position: fixed;
+	left: 0; */
+/* text-align: left;
+	list-style: none;
+	/* width: 260px; */
+/* box-sizing: border-box;
+	color: white;
+	background-color: #3333ff;
+	margin: 0 100px 0 0;
+	padding: 0;
+	height: 75vh;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: 'Jost', sans-serif; */
+*/ /* }  */ .Sidebar {
+	background-color: #3333ff;
+	text-align: left;
+	list-style: none;
+	width: 400px;
+	height: 100vh;
+	color: white;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;
+	/* display: inline-block; */
+	/* position: fixed;
+	left: 0;
+	top: 0; */
+}
+
+.sidebar-options-list {
+	margin: 0 0 0 10px;
+}
+.sidebar-options-list a {
+	margin: 0 0 12px 0;
+	padding: 10px 0 10px 20px;
+	font-size: 1.2rem;
+	display: block;
+	color: white;
+	cursor: pointer;
+	width: 100%;
+}
+.sidebar-options:hover {
+	text-decoration: none;
+	border-left: 2px solid white;
+}
+.sidebar-brand {
+	display: block;
+	font-size: 3.1rem;
+	font-weight: 600;
+	margin: 0 0 10px 30px;
+}
+
+.toggler {
+	width: 30px;
+	height: 70px;
+	background-color: #3333ff;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 315px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.chevron {
+	color: white;
+}

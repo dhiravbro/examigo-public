@@ -1,0 +1,11 @@
+.SectionTabs {
+	display: flex;
+	flex-flow: row;
+}
+.SectionTab {
+	margin: 0 2px;
+	padding: 10px;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}

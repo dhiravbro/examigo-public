@@ -1,0 +1,35 @@
+.add-post-area {
+	width: 60%;
+	margin: 20px auto;
+	box-sizing: border-box;
+	border: 1px solid grey;
+	border-radius: 5px;
+	white-space : pre-wrap;
+}
+
+.add-post-query {
+	border: none;
+	border-radius: 5px;
+	box-sizing: border-box;
+	width: 90%;
+	height: 80%;
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+}
+.add-post-subject option {
+	font-size: 0.8rem;
+	width: 30%;
+	padding: 7px 15px;
+	border-radius: 5px;
+	border: none;
+}
+.add-post-btn {
+	background-color: #1d88c9;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 17px;
+	margin: 10px 20px;
+	cursor: pointer;
+}

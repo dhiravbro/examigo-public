@@ -1,0 +1,91 @@
+.test-view {
+	width: 80%;
+	margin: 0 auto;
+}
+/* lTest {
+	 margin: 50px 20px 20px 50px; 
+} */
+.test-filter-div{
+	width : 100%;
+	text-align: right;
+}
+.test-filter{
+	font-family : 'FontAwesome','Arial';
+}
+.exam-date-time {
+	width: 20%;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+}
+.exam-info {
+	padding: 10px 0;
+	width: 50%;
+	text-align: left;
+}
+.exam-date-time .ExamDate {
+	font-size: 1.5rem;
+}
+.exam-date-time .ExamTime {
+	font-size: 1.1rem;
+}
+.exam-info-div {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #858585;
+}
+.exam-info .ExamName {
+	display: block;
+	font-size: 1.4rem;
+}
+.exam-info .Description {
+	display: block;
+}
+.Duration {
+	width: 40%;
+	/* padding :  */
+	display: block;
+	font-size: 0.9rem;
+}
+.alltest-title {
+	font-size: 2.5rem;
+	text-align: left;
+	margin: 25px 0 0 30px;
+}
+.UpcomingExam {
+	padding: 10px 10px 20px 10px;
+	display: flex;
+	align-items: center;
+	/* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2); */
+}
+.Description {
+	font-size: 1.1rem;
+	font-weight: lighter;
+	color: #bbb8b8;
+	margin: 5px 0 0 0;
+}
+.Attempt {
+	align-self: center;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	background-color: #e95339;
+	color: white;
+	cursor: pointer;
+}
+.Analysis {
+	align-self: center;
+	border: none;
+	padding: 8px;
+	border-radius: 5px;
+	background-color: #a7e247;
+	color: white;
+	cursor: pointer;
+}
+.Attempt:hover {
+	background-color: #ce381d;
+}
+.Analysis:hover {
+	background-color: #52d117;
+}

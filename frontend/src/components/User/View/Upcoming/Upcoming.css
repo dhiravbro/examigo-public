@@ -1,0 +1,35 @@
+.UpcomingExam {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	height: 120px;
+	background-color: #feb4c3;
+	color: white;
+	margin: 0 0 20px;
+	padding: 10px 20px 10px;
+	border-radius: 20px;
+	/* box-shadow: 0 20px 20px 0 rgba(102, 99, 99, 0.2); */
+}
+
+.ExamName {
+	font-size: 1.5rem;
+	font-weight: bold;
+	align-self: center;
+}
+
+.Attempt {
+	align-self: center;
+	border: none;
+	padding: 8px;
+	border-radius: 10px;
+	background-color: #ffdd83;
+	color: #57419d;
+	cursor: pointer;
+}
+
+.Attempt:hover {
+	background-color: #ffe08f;
+	color: #57419d;
+}

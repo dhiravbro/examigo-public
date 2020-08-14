@@ -1,0 +1,7 @@
+.admin-view-area {
+	display: inline-block;
+	width: 100%;
+	overflow : hidden;
+	background-color: #ffffff;
+	position: relative;
+}

@@ -1,0 +1,120 @@
+.userprofile-div {
+	width: 70%;
+	margin: 0 auto;
+}
+.profile-avatar {
+	width: 15%;
+}
+.form-input {
+	padding: 8px 15px;
+	background-color: #eaeaea;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	width: 90%;
+	color: #333;
+	font-size: 0.9rem;
+}
+
+.input-box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 50%;
+	margin: 0 0 20px 0;
+}
+
+.input-box label {
+	padding: 0 15px;
+	font-size: 0.8rem;
+	color: #8e8e8e;
+}
+
+.choose-avatar {
+	font-size: 1.5rem;
+	margin: 50px auto 0;
+}
+.avatar-options {
+	width: 60%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 20px 0;
+	margin: 0 auto;
+}
+.avatar-option {
+	margin: 20px auto;
+	width: 100%;
+	border-radius: 5px;
+}
+.avatar-option label {
+	/* border: 1px solid #ccc; */
+	padding: 10px;
+	margin: 10px;
+}
+.avatar {
+	width: 75%;
+	height: 75%;
+}
+.avatar:hover {
+	transform: scale(1.1, 1.1);
+}
+.avatar-input[checked="true"] + .avatar .after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: rgba(0, 0, 100, .3);
+}
+
+.image-container .after {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	color: #fff;
+}
+
+/* HIDE RADIO */
+.avatar-input[type=radio] {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* IMAGE STYLES */
+.avatar-input[type=radio] + .image-container {
+	cursor: pointer;
+}
+
+/* CHECKED STYLES */
+.avatar-input[type=radio]:checked + .image-container .after {
+	display: block;
+	background: rgba(0, 0, 100, .3);
+}
+.selected-overlay {
+	position: absolute;
+	background: blue;
+	opacity: 0.3;
+	width: 100%;
+	height: 100%;
+}
+
+.update-profile-button {
+	background-color: #3333ff;
+	color: white;
+	padding: 10px;
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+	margin: 0 0 60px 0;
+}
+@media (max-width: 500px) {
+	.avatar-options {
+		grid-template-columns: 1fr;
+	}
+}
